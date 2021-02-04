@@ -34,8 +34,10 @@ export default makeStyles((theme) => ({
   },
 	Icon: {
     display: 'flex',
+    height: '70%',
+    width: "auto",
     align: "center",
-    margin: "0.5rem",
+    margin: "0.5rem"
 
   },
   imageIcon: {

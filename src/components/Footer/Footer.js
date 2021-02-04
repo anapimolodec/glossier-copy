@@ -11,17 +11,23 @@ const Footer = () => {
 					<h1> Copy of <a className = {classes.anchor} href = "https://www.glossier.com/"> Glossier.com </a> </h1>
 					<h3> This website is made for learning purposes. 2021. </h3>
 					<p> Icons made by <a className = {classes.anchor} href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> </p>
-					<p> See the <a className = {classes.anchor} href = "https://github.com/anapimolodec"> source code </a> </p>
+					<p> See  the <a className = {classes.anchor} href = "https://github.com/anapimolodec/copy-of-glossier"> source code </a> </p>
 				</div>
 				<div className = {classes.contacts}>
 					<Icon className = {classes.Icon}>
-				        <img className = {classes.imageIcon} alt = "instagram" src={process.env.PUBLIC_URL + '/icons/instagram.png'} />
+				        <a href = "https://www.whatsapp.com/?lang=en" className = {classes.imageIcon}> 
+				        	<img className = {classes.imageIcon} alt = "instagram" src={process.env.PUBLIC_URL + '/icons/instagram.png'} />
+				        </a>
 				    </Icon>
 				    <Icon  className = {classes.Icon}>
-				        <img  className = {classes.imageIcon} alt= "whataspp" src={process.env.PUBLIC_URL + '/icons/whatsapp.png'} />
+				    	<a className = {classes.imageIcon} href = "https://www.instagram.com/" style = {{textDecoration: 'none'}}> 
+				    		<img className = {classes.imageIcon}  alt= "whatsapp" src={process.env.PUBLIC_URL + '/icons/whatsapp.png'} />
+				    	</a>
 				    </Icon>
 				    <Icon className = {classes.Icon} >
-				        <img className = {classes.imageIcon} alt = "facebook" src={process.env.PUBLIC_URL + '/icons/facebook.png'} />
+				    	<a href ="https://www.facebook.com/" className = {classes.imageIcon}>
+				        	<img className = {classes.imageIcon} alt = "facebook" src={process.env.PUBLIC_URL + '/icons/facebook.png'} />
+				        </a>
 				    </Icon>
 
 				</div>
