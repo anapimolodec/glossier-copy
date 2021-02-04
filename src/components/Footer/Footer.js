@@ -11,7 +11,7 @@ const Footer = () => {
 					<h1> Copy of <a className = {classes.anchor} href = "https://www.glossier.com/"> Glossier.com </a> </h1>
 					<h3> This website is made for learning purposes. 2021. </h3>
 					<p> Icons made by <a className = {classes.anchor} href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> </p>
-					<p> See  the <a className = {classes.anchor} href = "https://github.com/anapimolodec/copy-of-glossier"> source code </a> </p>
+					<p> See  the <a className = {classes.anchor} href = "https://github.com/anapimolodec/glossier-copy"> source code </a> </p>
 				</div>
 				<div className = {classes.contacts}>
 					<Icon className = {classes.Icon}>
