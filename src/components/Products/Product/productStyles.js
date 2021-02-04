@@ -11,14 +11,14 @@ export default makeStyles((theme) => ({
   },
   cardActions: {
     display: 'flex',
-    justifyContent: 'flex-end',
+    justifyContent: 'flex-center',
   },
   cardContent: {
     display: 'flex',
     justifyContent: 'space-between',
   },
   productGrid: {
-    height: '100%',
+    height: '80%',
     display: 'flex',
     justifyContent:'center',
     alignItems: 'center',
@@ -30,8 +30,8 @@ export default makeStyles((theme) => ({
 
   },
    mediaImg: {
-    height: '100%',
-    paddingTop: '170%', // 16:9
+    paddingTop: '170%', 
+    marginRight: '1rem',
   },
   toolbar: theme.mixins.toolbar,
    content: {

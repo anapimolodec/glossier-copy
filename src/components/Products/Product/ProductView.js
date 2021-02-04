@@ -12,8 +12,10 @@ const ProductView = ({product, onAddToCart}) =>{
 			<div className = {classes.toolbar} />
 			
 			<Grid container className = {classes.productGrid}>
-				<Grid item xs ={12} sm ={12} md ={6} lg ={6}>
-					<CardMedia className = {classes.mediaImg} image = {product.media.source} title = {product.name} />
+				<Grid item  md ={3} lg ={3}>
+				</Grid>
+				<Grid item xs ={12} sm ={12} md ={3} lg ={3}>
+					<CardMedia className = {classes.mediaImg} style={{maxHeight: '80vh'}} image = {product.media.source} title = {product.name} />
 				</Grid>
 				<Grid item xs ={12} sm ={12} md ={6} lg ={6}>
 					<List style={{maxHeight: '100%', overflow: 'auto'}} >

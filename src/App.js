@@ -7,8 +7,9 @@ import { CssBaseline} from '@material-ui/core';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { commerce } from './lib/commerce';
 
-function App() {
 
+function App() {
+	
  
 	const [products, setProducts] = useState([]);
 	const [cart,setCart] = useState({});
@@ -71,6 +72,7 @@ function App() {
 	useEffect(() => { //calls when restart page
 	 	fetchProducts();
 	 	fetchCart();
+
 	 	
 
 	}, []);
@@ -84,6 +86,7 @@ function App() {
 		     	<div style = {{minHeight: '80vh'}} >
 
 			     	<Switch>
+
 			     		<Route exact path = "/"> 
 			     			<Front />
 			     			<Products products = {products} onAddToCart = {handleAddToCart} onSetCurrent = {setCurrent}/>
