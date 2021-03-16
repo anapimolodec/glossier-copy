@@ -30,7 +30,7 @@ const Navbar = ({totalitems, current}) => {
           		</Button>
           		<DrawerMenu state = {state} toggleDrawer = {toggleDrawer} />
 				<Typography component = {Link} to="/" variant = "h6" className = {classes.title} color= "inherit">
-					<img src={process.env.PUBLIC_URL + '/icons/logo_glossier.jpg'} alt="Glossier.js" height="25px" className = {classes.image} />
+					<img src={ '../icons/glossier.png'} alt="Glossier Logo" height="25px" className = {classes.image} />
 					Glossier
 				</Typography>
 				<div className = {classes.grow} />
